@@ -8,7 +8,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {moreData.map(({ id, Image, title, github, demo }) => {
+        {moreData.map(({ id, Image, title, github, demo, des }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -16,6 +16,7 @@ const Portfolio = () => {
               </div>
 
               <h3>{title}</h3>
+              <p className="description">{des}</p>
               <div className="portfolio__item-Cta">
                 <a href={github} target="blank" className="btn">
                   Github

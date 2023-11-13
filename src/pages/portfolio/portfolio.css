@@ -39,6 +39,9 @@
     margin: 2rem;
     text-align: center;
   }
+  .description{
+    margin: 1rem 0;
+  }
   /* =========== media queries (medium devices) =========== */
   @media screen and (max-width: 1024px) {
     .portfolio__container {

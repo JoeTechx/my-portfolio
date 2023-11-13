@@ -50,32 +50,41 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Implementing interactive and dynamic elements on the user
+                interface.
+              </p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Using frameworks and libraries like React, Angular, or Vue.js.
+              </p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Creating bespoke solutions tailored to specific business needs.
+              </p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Developing tools, dashboards, or platforms for internal use.
+              </p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Ensuring websites are optimized for mobile devices.</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Building mobile applications or progressive web apps.</p>
             </li>
           </ul>
         </article>
