@@ -1,26 +1,18 @@
-import React from "react";
-import Header from "./component/header/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import Portfolio from "./pages/portfolio/portfolio";
 import Nav from "./component/Nav/Nav";
-import About from "./component/about/About";
-import Experience from "./component/experience/Experience";
-import Services from "./component/services/Service";
-import Portfolio from "./component/portfolio/Portfolio";
-import Testimonial from "./component/Testimonial/Testimonial";
-import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
+
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="portfolio" element={<Portfolio />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 };
 

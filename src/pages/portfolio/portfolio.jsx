@@ -1,6 +1,5 @@
-import React from "react";
 import "./portfolio.css";
-import { data } from "../../data";
+import { moreData } from "../../data";
 
 const Portfolio = () => {
   return (
@@ -9,7 +8,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, Image, title, github, demo }) => {
+        {moreData.map(({ id, Image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -29,9 +28,6 @@ const Portfolio = () => {
           );
         })}
       </div>
-        <div className="view_more">
-          <a href="/portfolio">view more...</a>
-        </div>
     </section>
   );
 };

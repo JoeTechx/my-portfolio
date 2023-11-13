@@ -1,7 +1,7 @@
 .services__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
+  place-items: center;
 }
 
 .service {
@@ -54,7 +54,6 @@
 /* =========== media queries (medium devices) =========== */
 @media screen and (max-width: 1024px) {
   .services__container {
-    grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 
