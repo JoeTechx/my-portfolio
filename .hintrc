@@ -1,15 +1,10 @@
 {
-  "extends": [
-    "development"
-  ],
+  "extends": ["development"],
   "hints": {
     "compat-api/css": [
       "default",
       {
-        "ignore": [
-          "backdrop-filter",
-          "aspect-ratio"
-        ]
+        "ignore": ["backdrop-filter", "aspect-ratio", "scroll-behavior"]
       }
     ]
   }
