@@ -1,0 +1,137 @@
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: var(--color-primary);
+}
+
+.container.portfoliocards__container {
+  width: 80%;
+  padding-bottom: 5rem;
+  top: 13rem;
+}
+.portfoliocard {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--color-bg-variant);
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.portfolio__cardItem-image {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 50rem;
+}
+
+.portfolio__cardItem-Cta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio__cardItem-Cta h3 {
+  font-size: 1.7rem;
+}
+
+.portfolio__cardItem-Cta p {
+  font-size: 0.99rem;
+  font-weight: 200;
+}
+
+.autoplay_btn {
+  position: relative;
+  z-index: 1;
+  top: 9.5rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.ss_btn {
+  border-radius: 50% !important;
+  padding: 0.35rem 0.46rem !important;
+  background: transparent;
+  font-size: 0.7rem;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio__cardItem-Cta h3 {
+    font-size: 1.4rem;
+  }
+  .portfolio__cardItem-Cta p {
+    font-size: 0.8rem;
+  }
+
+  .more_btn {
+    font-size: 0.8rem;
+  }
+
+  .portfolio__cardItem-image {
+    width: 30rem;
+  }
+
+  .container.portfoliocards__container {
+    width: 90%;
+    padding-bottom: 4rem;
+    top: 13rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__cardItem-Cta h3 {
+    font-size: 1.4rem;
+  }
+
+  .portfolio__cardItem-Cta p {
+    font-size: 0.8rem;
+  }
+
+  .more_btn {
+    font-size: 0.8rem;
+  }
+
+  .portfolio__cardItem-image {
+    width: 30rem;
+  }
+
+  .container.portfoliocards__container {
+    width: 90%;
+    padding-bottom: 4rem;
+    top: 13rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio__cardItem-Cta h3 {
+    font-size: 1rem;
+  }
+
+  .portfolio__cardItem-Cta p {
+    font-size: 0.8rem;
+  }
+
+  .more_btn {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .portfolio__cardItem-image {
+    width: 100%;
+  }
+
+  .container.portfoliocards__container {
+    width: 70%;
+  }
+
+  .portfoliocard {
+    flex-direction: column;
+    padding: 1.5rem 1.5rem;
+  }
+}

@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="#header" className="footer__logo">
+      <a href="/" className="footer__logo">
         JOEX
       </a>
 

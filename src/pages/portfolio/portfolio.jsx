@@ -1,7 +1,12 @@
-import "./portfolio.css";
+import { useState } from "react";
 import { moreData } from "../../data";
+import { AiOutlineHome } from "react-icons/ai";
+
+import "./portfolio.css";
 
 const Portfolio = () => {
+  const [activeNav, setActiveNav] = useState("/");
+
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -28,6 +33,15 @@ const Portfolio = () => {
             </article>
           );
         })}
+      </div>
+      <div className="home_active">
+        <a
+          href="/"
+          onClick={() => setActiveNav("/")}
+          className={activeNav === "/" ? "active" : ""}
+        >
+          <AiOutlineHome />
+        </a>
       </div>
     </section>
   );

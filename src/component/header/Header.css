@@ -1,7 +1,6 @@
 header {
   height: 100vh;
   padding-top: 3rem;
-  overflow: hidden;
 }
 
 .header__container {
@@ -26,7 +25,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  top: 20rem;
 }
 
 .header__socials::after {
@@ -38,24 +37,53 @@ header {
 
 /* =========== ME ============= */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 20rem;
-  height: 29rem;
+  background: linear-gradient(#44c0fa, #000e18);
+  width: 7rem;
+  height: 7rem;
   position: absolute;
-  left: calc(50% - 9rem);
-  margin-top: 2rem;
-  border-radius: 12rem 12rem 0 0;
+  left: calc(50% - 3rem);
+  margin-top: 3rem;
+  border-radius: 12rem;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 0rem 1.5rem 0.5rem 0.5rem;
+  opacity: 0;
+  animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+  animation-delay: 2s 3s;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-24px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 /* =========== scroll down ============= */
 .scroll__down {
   position: absolute;
   right: -2.5rem;
-  bottom: 5rem;
+  top: 22rem;
+  transition: 0.3s;
   transform: rotate(90deg);
   font-weight: 200;
   font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
 }
 
 /* =========== media queries (medium devices) =========== */

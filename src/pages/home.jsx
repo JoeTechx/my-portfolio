@@ -10,7 +10,7 @@ import Experience from "../component/experience/Experience";
 const Home = () => {
   return (
     <div>
-        <Nav />
+      <Nav />
       <Header />
       <About />
       <Experience />

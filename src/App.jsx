@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Portfolio from "./pages/portfolio/portfolio";
-import Nav from "./component/Nav/Nav";
 import Footer from "./component/footer/Footer";
 
 const App = () => {

@@ -1,8 +1,11 @@
 import React from "react";
 import "./Header.css";
 import CTA from "./CTA";
-import ME from "../../assets/me.png";
+import ME from "../../assets/joex.png";
 import HeaderSocial from "./HeaderSocial";
+
+import { FaArrowRight } from "react-icons/fa";
+import PortfolioCard from "../portfolio-card/portfolioCard";
 const Header = () => {
   return (
     <header id="header">
@@ -16,8 +19,10 @@ const Header = () => {
         <div className="me">
           <img src={ME} alt="me" />
         </div>
+        <PortfolioCard />
         <a href="#about" className="scroll__down">
           Scroll Down
+          <FaArrowRight />
         </a>
       </div>
     </header>

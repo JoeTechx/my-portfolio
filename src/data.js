@@ -71,7 +71,7 @@ export const moreData = [
   },
   {
     id: 2,
-    Image:IMG2,
+    Image: IMG2,
     title: "Threads",
     des: "Threads Application is a social media app for making friends and to share what's threading around the world",
     github: "https://github.com/JoeTechx/Threads",
@@ -188,5 +188,36 @@ export const moreData = [
     des: "CountdownX: Time Unleashed. Create Anticipation with CountdownX - Your Ultimate Countdown Companion.",
     github: "https://github.com/JoeTechx/countdown",
     demo: "https://joetechx.github.io/countdown/",
+  },
+];
+
+export const portfolioCard = [
+  {
+    id: 1,
+    Image: IMG1,
+    title: "Journal",
+    des: "Journal is the connected workspace where better, faster work happens.",
+    viewMore: "/portfolio",
+  },
+  {
+    id: 2,
+    Image: IMG11,
+    title: "Domain task",
+    des: "A domain task that takes about myself, my hobbies, my priorities, and my skills (zuri internship task) ",
+    viewMore: "/portfolio",
+  },
+  {
+    id: 3,
+    Image: IMG13,
+    title: "Admin dashboard",
+    des: "AdminFlow: Streamlined Control, Insightful Metrics. Elevate Your Management with a Click.",
+    viewMore: "/portfolio",
+  },
+  {
+    id: 4,
+    Image: IMG3,
+    title: "Note app",
+    des: "Note app is designed to be your go-to note-taking app, providing a seamless and intuitive experience.",
+    viewMore: "/portfolio",
   },
 ];
