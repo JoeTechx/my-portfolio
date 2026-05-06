@@ -13,6 +13,9 @@ import IMG12 from "./assets/tabletask.PNG";
 import IMG13 from "./assets/admindasboard.PNG";
 import IMG14 from "./assets/resume.PNG";
 import IMG15 from "./assets/countdown.PNG";
+import IMG16 from "./assets/AnimeMagicIMG.png";
+import IMG17 from "./assets/Resumepro.png";
+import IMG18 from "./assets/JoexProfile.png";
 import cIMG3 from "./assets/callery.PNG";
 
 export const data = [
@@ -59,7 +62,6 @@ export const data = [
     demo: "https://gymlens.netlify.app/",
   },
 ];
-
 export const moreData = [
   {
     id: 1,
@@ -71,6 +73,14 @@ export const moreData = [
   },
   {
     id: 2,
+    Image: IMG16,
+    title: "Anime Magic",
+    des: "Explore The Diverse Realms of Anime Magic",
+    github: "https://github.com/JoeTechx/animevault",
+    demo: "https://animevaut.vercel.app/",
+  },
+  {
+    id: 3,
     Image: IMG2,
     title: "Threads",
     des: "Threads Application is a social media app for making friends and to share what's threading around the world",
@@ -78,7 +88,7 @@ export const moreData = [
     demo: "https://threadcom.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     Image: IMG3,
     title: "Note app",
     des: "Note app is designed to be your go-to note-taking app, providing a seamless and intuitive experience.",
@@ -86,7 +96,7 @@ export const moreData = [
     demo: "https://jottingapp.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     Image: cIMG3,
     title: "Callery",
     des: "A drag and drop gallery of cars",
@@ -94,7 +104,7 @@ export const moreData = [
     demo: "https://jottingapp.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     Image: IMG4,
     title: "Carslot",
     des: "CarSlot: Your Personal Travel Companion Embark on a new journey with CarSlot, the app that simplifies your travel experience.",
@@ -102,7 +112,7 @@ export const moreData = [
     demo: "https://joetechx.github.io/carslot/",
   },
   {
-    id: 6,
+    id: 7,
     Image: IMG5,
     title: "Metabnb",
     des: "Metabnb: Your Gateway to the Crypto Metaverse: Step into the future of finance with Metabnb, your all-in-one crypto companion",
@@ -110,7 +120,7 @@ export const moreData = [
     demo: "https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress",
   },
   {
-    id: 7,
+    id: 8,
     Image: IMG6,
     title: "Gymlens",
     des: "Gymlens: Your Vision for Fitness: Unleash the full potential of your fitness journey with Gymlens, the app that transforms your workout experience",
@@ -118,7 +128,7 @@ export const moreData = [
     demo: "https://gymlens.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     Image: IMG7,
     title: "Edusite",
     des: "Edusite: Elevate Your Educational Experience: Welcome to Edusite, where learning meets innovation. It is More than just a school app",
@@ -126,7 +136,7 @@ export const moreData = [
     demo: "https://joetechx.github.io/Edusitex/",
   },
   {
-    id: 9,
+    id: 10,
     Image: IMG8,
     title: "Zuri | Learn, Build, Grow",
     des: "Zuri | Learn, Build, Grow: Your Path to Tech Mastery: Unlock your full potential in the world of technology with Zuri, the ultimate platform for aspiring developers",
@@ -134,7 +144,7 @@ export const moreData = [
     demo: "https://joetechx.github.io/Repli-Zuri/",
   },
   {
-    id: 10,
+    id: 11,
     Image: IMG9,
     title: "FooDx",
     des: "FooDx: Elevate Your Culinary Experience Indulge your taste buds and embark on a culinary journey with FooDx, the ultimate food app designed for enthusiasts and connoisseurs alike.",
@@ -142,7 +152,7 @@ export const moreData = [
     demo: "https://joetechx.github.io/FooDX/",
   },
   {
-    id: 11,
+    id: 12,
     Image: IMG10,
     title: "Form validation",
     des: "FormGuard: Effortless Form Validation. No Errors, Just Progress. FormCheck simplifies the validation process, ensuring seamless data submissions with precision.",
@@ -150,7 +160,7 @@ export const moreData = [
     demo: "https://joetechx.github.io/form-validation/",
   },
   {
-    id: 12,
+    id: 13,
     Image: IMG11,
     title: "Domain task",
     des: "A domain task that takes about myself, my hobbies, my priorities, and my skills (zuri internship task) ",
@@ -158,7 +168,7 @@ export const moreData = [
     demo: "https://joetechx.github.io/mydomain-task/",
   },
   {
-    id: 13,
+    id: 14,
     Image: IMG12,
     title: "Table task",
     des: "A table that shows the scores of students in their exam and the total scores also (zuri internship task)",
@@ -166,7 +176,15 @@ export const moreData = [
     demo: "https://joetechx.github.io/table-task/",
   },
   {
-    id: 14,
+    id: 15,
+    Image: IMG17,
+    title: "Resume",
+    des: "My second resume full with HTML, Java script, swiper-bundle.js, CSS, and swiper-bundle.css but mainly full with swiper-bundle.min.js, swiper-bundle.css and java script",
+    github: "https://github.com/JoeTechx/Joe_x",
+    demo: "https://joetechx.github.io/Joe_x/",
+  },
+  {
+    id: 16,
     Image: IMG13,
     title: "Admin dashboard",
     des: "AdminFlow: Streamlined Control, Insightful Metrics. Elevate Your Management with a Click.",
@@ -174,7 +192,7 @@ export const moreData = [
     demo: "https://joetechx.github.io/Admin-broad/",
   },
   {
-    id: 15,
+    id: 17,
     Image: IMG14,
     title: "Resume",
     des: "ProResume: Craft Your Success Story. Stand Out with a Professional Resume Tailored to Your Journey.",
@@ -182,15 +200,22 @@ export const moreData = [
     demo: "https://joetechx.github.io/RESUME/",
   },
   {
-    id: 16,
+    id: 18,
     Image: IMG15,
     title: "Countdown",
     des: "CountdownX: Time Unleashed. Create Anticipation with CountdownX - Your Ultimate Countdown Companion.",
     github: "https://github.com/JoeTechx/countdown",
     demo: "https://joetechx.github.io/countdown/",
   },
+  {
+    id: 19,
+    Image: IMG18,
+    title: "JoexProfile",
+    des: "A Profile page of JoeX where you can see the current day, time, My Skills, Github Link",
+    github: "https://github.com/JoeTechx/joexprofile",
+    demo: "https://joetechx.github.io/joexprofile/",
+  },
 ];
-
 export const portfolioCard = [
   {
     id: 1,

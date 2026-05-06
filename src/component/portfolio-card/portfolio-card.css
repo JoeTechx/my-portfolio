@@ -5,8 +5,9 @@
 .container.portfoliocards__container {
   width: 80%;
   padding-bottom: 5rem;
-  top: 13rem;
+  top: 5rem;
 }
+
 .portfoliocard {
   display: flex;
   align-items: center;
@@ -48,7 +49,7 @@
 .autoplay_btn {
   position: relative;
   z-index: 1;
-  top: 9.5rem;
+  top: 1.5rem;
   left: 0;
   display: flex;
   align-items: center;
@@ -70,6 +71,7 @@
   .portfolio__cardItem-Cta h3 {
     font-size: 1rem;
   }
+
   .portfolio__cardItem-Cta p {
     font-size: 0.8rem;
   }
@@ -85,7 +87,7 @@
   .container.portfoliocards__container {
     width: 90%;
     padding-bottom: 4rem;
-    top: 13rem;
+    top: 4rem;
   }
 }
 

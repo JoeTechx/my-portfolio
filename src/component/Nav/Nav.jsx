@@ -34,6 +34,27 @@ const Nav = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const sections = document.querySelectorAll("section[id], header[id]");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveNav(entry.target.id === "header" ? "#" : `#${entry.target.id}`);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+
+    return () => {
+      sections.forEach((section) => observer.unobserve(section));
+    };
+  }, []);
+
   return (
     <nav className={visible ? "visible" : "hidden"}>
       <a

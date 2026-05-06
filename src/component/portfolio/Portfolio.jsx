@@ -29,8 +29,13 @@ const Portfolio = () => {
           );
         })}
       </div>
-        <div className="view_more">
+        <div className="view_more" style={{ marginBottom: '1.5rem' }}>
           <a href="/portfolio">view more...</a>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <a href="https://github.com/JoeTechx?tab=repositories" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            View All Projects on GitHub
+          </a>
         </div>
     </section>
   );

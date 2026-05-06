@@ -34,6 +34,11 @@ const Portfolio = () => {
           );
         })}
       </div>
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
+        <a href="https://github.com/JoeTechx?tab=repositories" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+          View All Projects on GitHub
+        </a>
+      </div>
       <div className="home_active">
         <a
           href="/"
